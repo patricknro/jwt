@@ -1,0 +1,6 @@
+﻿curl --location --request POST 'http://localhost:50015/auth' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "username": "test",
+    "password": "test"
+}'
